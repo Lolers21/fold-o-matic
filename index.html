@@ -1,0 +1,196 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #add8e6;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #add8e6;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #add8e6;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+#topLogo
+{
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+#logoAndTitle
+{
+  width:50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+</style>
+</head>
+<body>
+
+<div class="header" >
+      <div id="logoAndTitle">
+          <img id="topLogo" src="fold-logo.jpg">
+          <h1>Fold-o-matic</h1>
+          <br>
+      </div>
+  
+</div>
+
+<div class="topnav">
+  <a href="file:///Users/nikhil/Desktop/FAQ.html">FAQ</a>
+
+  <a href="file:///Users/nikhil/Desktop/lolers.html">FEEDBACK</a>
+ 
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>WHAT WE OFFER</h2>
+      <img id="topLogo" src="fold-o-matic.jpg" style="height:100px;width: 200px">
+
+      <p>The Fold-o-Matic</p>
+      <p>This product helps you take a boring and time consuming chore and makes it fun. By simply turning a crank, pushing a button this product takes folding clothes a lot faster to be done.</p>
+    </div>
+    <div class="card">
+      <h2>OUR GOALS</h2>
+      <img src="fol-fol.jpg">
+      <p></p>
+      <p>We hope to helps people do more productive things instead of folding clothes. It is a fact that the average american spends about two hours a week just folding clothes. Instead of folding clothes you can be more focused on different things. We want you to also have a good expereince using this product.</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>how it works</h2>
+      <img id="topLogo" src="gears.jpg" style="height:100px;width: 180px">
+      <p>It uses all pure physics. There will be two cranks. one for each flap</p>
+    </div>
+    <div class="card">
+      <h3>The Fold-o-Matic</h3>
+       <div class="fakeimg"><p> Our praces start at about thirty dollars! be the first one to order it!</p></div>
+       <div class="fakeimg"><p></p></div>
+      <div class="fakeimg"><p></p></div>
+    </div>
+    <div class="card">
+      <h3>contact us</h3>
+      <p>Any Questions?
+      just send an email to
+    348985@cusdk8.org</p>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>WHY WE DO THIS</h2>
+      <img id="topLogo" src="fol-fol2.jpg" style="height:50px;width: 200px">
+
+      <p></p>
+      <p>We want people to be more productive with their time. We want to solve that by making folding clothes which is a chore that everyone hates and turning it into something fun and less time consuming.</p>
+    </div>
+
+
+
+
+</body>
+</html>
